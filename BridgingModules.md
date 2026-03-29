@@ -12,6 +12,8 @@ Murdoch Student ID : 36060222
 * VirtualBox - https://www.virtualbox.org/
 * Downloaded ubuntu-24.04.4-desktop-amd64
 * Ubuntu - https://ubuntu.com/download/desktop
+* config VM with 8192MB Base Memory and 2 Processors core
+* Succesfully booted and ran Ubuntu on VirtualBox
 
 ## Session 1a - Basic command line navigation and utilities.
 - `pwd` - prints current working directorys

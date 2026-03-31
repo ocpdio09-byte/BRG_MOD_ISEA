@@ -57,7 +57,8 @@ Murdoch Student ID : 36060222
   - Basically to include it infront of a directory and use cd to access it.
    
 ## Session 1b: Exploring Linux ##
-
+# Session 1b : Linux Services
+- `sudo
 ---
 
 ## Session 2 ##

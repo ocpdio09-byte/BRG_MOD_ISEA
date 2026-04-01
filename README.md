@@ -4,7 +4,7 @@ Student Name : LEE WEI HANG\
 Kaplan Student ID : CT0381772\
 Murdoch Student ID : 36060222
 
----
+----------
 
 # Session 1 
 ## Session 1a - Setting Up Linux ##
@@ -126,20 +126,35 @@ O - other\
       - 5 -> r-x (read, execute)
       - 4 -> r-- (read)
       - 0 -> --- (No permission)
-- `chmod 777 TestPrem.txt`
-  - give full permission to all user to read write and execute the file
-- `chmod 444 TestPrem.txt`
-  - make file read-omly for all user
-- `chmod 755 TestPrem.txt`
-  - give gull permission to user BUT read and execute only for group AND OTHER
-- `chmod 740 TestPrem.txt`
-  - make file read-omly for all user
+  - `chmod 777 TestPrem.txt` -> give full permission to all user to read write and execute the file
+  - `chmod 444 TestPrem.txt` -> make file read-omly for all user
+  - `chmod 755 TestPrem.txt` -> give gull permission to user BUT read and execute only for group AND OTHER
+  - `chmod 740 TestPrem.txt` -> make file read-omly for all user
+  - 
 - Symbolic mode -> allows adding or removing premission specifically.
   - `chmod u+x TestPrem.txt` 
   - `chmod g-w TestPrem.txt`
-- Change Ownership!
-  - `sudo chown user:group TestPrem.txt`
-  - `sudo chown root:root TestPrem.txt`
----
 
-## Session 2 ##
+- Change Ownership!
+  - `sudo chown ubuntu:ubuntu TestPrem.txt` -> give premision to user ubuntu
+  - `sudo chown $USER:$USER TestPrem.txt` -> automatically check and uses current username
+    
+----------
+
+# Session 2 
+## Session 2a : Total Cost of Ownership (TCO)
+
+## Session 2b : Cloud Services
+
+## Session 2b : Bash Scripting
+
+----------
+
+# Session 3
+## Session 3a : DNS & Certificates
+
+## Session 3b : Server Automation
+
+----------
+
+# Sesssion 4

@@ -145,9 +145,98 @@ O - other\
 ## Session 2a : Total Cost of Ownership (TCO)
 
 ## Session 2b : Cloud Services
-
+- Succesfully deployed VM using Azure for Student
+  - VM Name : Lab2-Ubuntu
+  - Region  : Southeast Asia
+  - OS      : Linux
+  - Size    : Standard D2s v3 (2 vcpus, 8 GiB memory)
+- Connected to windows PowerShell terminal via : `SSH Command`
+- Updates the System with `sudo apt update` & `sudo apt update -y`
+  
 ## Session 2b : Bash Scripting
+- Create a working folder and first script
+  - `mkdir bash_lab` -> Creates directory
+  - `cd bash_lab`    -> go to directory
+  - `touch hello.sh` -> Create the script
 
+- Opening the script and writting into it
+  - `nano hello.sh` -> edit the script
+  - Write in the command  
+```
+#!/bin/bash
+echo "Hello World" 
+```
+  - When run `bash hello.sh` -> it will output "Hello World"
+
+- making script executable
+  - `chmod +x hello.sh` 
+  - Run the script `./hello.sh`
+
+- Creating New Scripts
+- If Statement
+```
+#Create the script (if statement)
+nano if.sh
+
+#!/bin/bash
+num=10
+if [ $num -gt 5 ]
+then
+  echo "Number is greater than 5"
+fi
+
+#run the script
+bash if.sh
+```
+
+- for loop
+```
+#Create the script (for loop)
+nano for.sh
+
+#!/bin/bash
+for i in 1 2 3 4 5
+do
+  echo "Number: $i"
+done
+
+bash if.sh
+```
+
+- while loop
+```
+#Create the script (while loop)
+nano while.sh
+
+#!/bin/bash
+count=1
+while [count -le 5]
+do
+  echo "Count: $count"
+  count-$((count + 1))
+done
+
+bash while.sh
+```
+
+- Uses of `cron`
+  - Cron works as an automatic command by running at a sepcific time repeatedly
+  - It may be used for time based backup automatically to help humans
+  - The below example show cron working every minute
+```
+#Create a cron
+crontab -e
+
+#Choose option 1
+1. /bin/nano
+
+* * * * * echo "Cron is working" >> /home/azureuser/cron.txt
+
+#go back to home directory and run
+cd ~
+cat cron.txt
+```
+-
 ----------
 
 # Session 3

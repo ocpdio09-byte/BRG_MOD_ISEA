@@ -252,6 +252,9 @@ bash while.sh
   - Cron works as an automatic command by running at a sepcific time repeatedly
   - It may be used for time based backup automatically to help humans
   - The below example show cron working every minute
+- `crontab -l` -> list current cron
+- `crontabh =r` -> remove cron
+
 ```
 #Create a cron
 crontab -e

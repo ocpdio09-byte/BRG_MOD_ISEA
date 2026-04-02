@@ -168,13 +168,16 @@ O - other\
   - Size    : Standard D2s v3 (2 vcpus, 8 GiB memory)
 - Connected to windows PowerShell terminal via : `SSH Command`
 - Updates the System with `sudo apt update` & `sudo apt update -y`
-  
+![Lab2b](2b1.png)
+![Lab2b](2b2.png)
+
 ## Session 2b : Bash Scripting
 - Create a working folder and first script
   - `mkdir bash_lab` -> Creates directory
   - `cd bash_lab`    -> go to directory
   - `touch hello.sh` -> Create the script
 
+![Lab2b](2b3.png)
 - Opening the script and writting into it
   - `nano hello.sh` -> edit the script
   - Write in the command  
@@ -184,9 +187,16 @@ echo "Hello World"
 ```
   - When run `bash hello.sh` -> it will output "Hello World"
 
+
+![Lab2b](2b4.png)
+![Lab2b](2b5.png)
+
 - making script executable
   - `chmod +x hello.sh` 
   - Run the script `./hello.sh`
+
+![Lab2b](2b6.png)
+![Lab2b](2b7.png)
 
 - Creating New Scripts
 - If Statement
@@ -204,6 +214,7 @@ fi
 #run the script
 bash if.sh
 ```
+![Lab2b](2b8.png)
 
 - For loop
 ```
@@ -218,6 +229,7 @@ done
 
 bash if.sh
 ```
+![Lab2b](2b9.png)
 
 - While loop
 ```
@@ -234,6 +246,7 @@ done
 
 bash while.sh
 ```
+![Lab2b](2b10.png)
 
 - Uses of `cron`
   - Cron works as an automatic command by running at a sepcific time repeatedly
@@ -254,6 +267,11 @@ cat cron.txt
 ```
 
 ----------
+
+![Lab2b](2b11.png)
+![Lab2b](2b12.png)
+![Lab2b](2b13.png)
+![Lab2b](2b14.png)
 
 # Session 3
 ## Session 3a : DNS & Certificates

@@ -15,6 +15,8 @@ Murdoch Student ID : 36060222
 * config VM with 8192MB Base Memory and 2 Processors core
 * Succesfully booted and ran Ubuntu on VirtualBox
 
+![activatedlinux](1a.png)
+
 ## Session 1a - Basic command line navigation and utilities.
 - `pwd` - prints current working directorys
   - helps to show output of the current path

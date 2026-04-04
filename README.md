@@ -141,7 +141,7 @@ rwx-rwx-rwx\
  U   G   O\
 U - User\
 G - Group\
-O - other\
+O - Other
 
 - `touch TestPrem/txt` Creating a dummy file
 - `ls -l` -> View permission 

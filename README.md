@@ -410,7 +410,7 @@ sudo nano /etc/crontab
 
 # Sesssion 4 
 ## Additional Server Service (MariaDB)
-- Intall MongoDB ~ `sudo apt install mariadb-server -y `
+- Intall MariaDB ~ `sudo apt install mariadb-server -y `
 - Start and enable MariaDB ~ `sudo systemctl start mariadb`,`sudo systemctl enable mariadb`
 - Verify MariaDB online ~ `sudo systemctl status mariadb`
 - Secure the installation ~ `sudo mysql_secure_installation`

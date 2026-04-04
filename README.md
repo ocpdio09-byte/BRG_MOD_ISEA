@@ -305,12 +305,14 @@ cd ~
 cat cron.txt
 ```
 
-----------
-
 ![Lab2b](2b11.png)
 ![Lab2b](2b12.png)
 ![Lab2b](2b13.png)
 ![Lab2b](2b14.png)
+
+----------
+
+
 
 # Session 3
 ## Session 3a : DNS & Certificates

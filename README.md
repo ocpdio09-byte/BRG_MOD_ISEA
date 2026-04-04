@@ -159,6 +159,8 @@ O - other\
   - `chmod 740 TestPrem.txt` -> make file read-omly for all user
   
 - Symbolic mode -> allows adding or removing premission specifically.
+- `-` to revoke a permission
+- `+` to add a permission 
   - `chmod u+x TestPrem.txt` 
   - `chmod g-w TestPrem.txt`
 

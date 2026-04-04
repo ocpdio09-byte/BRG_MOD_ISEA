@@ -406,8 +406,41 @@ sudo nano /etc/crontab
 
 ----------
 
-# Sesssion 4
+# Sesssion 4 
+## Additional Server Service (MariaDB)
+- Intall MongoDB ~ `sudo apt install mariadb-server -y `
+- Start and enable MariaDB ~ `sudo systemctl start mariadb`,`sudo systemctl enable mariadb`
+- Verify MariaDB online ~ `sudo systemctl status mariadb`
+- Secure the installation ~ `sudo mysql_secure_installation`
+- Login to Mariadb : `sudo mysql`
+- Created a Database and User.
+```
+CREATE DATABASE Lab4;
+CREATE USER 'labuser'@'localhost' IDENTIFIED BY 'password123';
+GRANT ALL PRIVILEGES ON Lab4.* TO 'labuser'@'localhost';
+```
+- Login as new created user ~ `mysql -u labuser -p`
+- Create simple table and insert data.
+```
+USE Lab4;
 
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    grade CHAR(1)
+);
 
+INSERT INTO students (name, grade)
+VALUES ('Micky', 'A'), ('John', 'B');
+```
+- Query Data : `SELECT * FROM student` ~ Returned 2 Row.
+- MariaDB version: `15.1 Distrib 10.11.14-MariaDB`
+
+![4AdditionalS](4A1.png)
+![4AdditionalS](4A2.png)
+![4AdditionalS](4A3.png)
+![4AdditionalS](4A4.png)
+![4AdditionalS](4A5.png)
+![4AdditionalS](4A6.png)
 
 

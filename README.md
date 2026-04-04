@@ -395,7 +395,7 @@ sudo nano /etc/crontab
   ```
   sudo apt install figlet neofetch -y
   nano ~/.bashrc
-    figlet "Lab2=Ubuntu"
+    figlet
     neofetch
   source ~/.bashrc
   ```

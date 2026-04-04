@@ -323,10 +323,21 @@ cat cron.txt
 - verified DNS by using ping `bridgingisea.duckdns.org`
 - Check and confirm working apache page at `http://bridgingisea.duckdns.org/`
 
+![3aDNS](3a1.png)
+![3aDNS](3a2.png)
+![3aDNS](3a3.png)
+![3aDNS](3a4.png)
+![3aDNS](3a5.png)
+![3aDNS](3a6.png)
+![3aDNS](3a7.png)
 
 - Installed SSL Certificatte
 - `sudo certbot --apache`
 - HTTPS enabled `https://bridgingisea.duckdns.org/`
+
+![3aDNS](3a8.png)
+![3aDNS](3a9.png)
+![3aDNS](3a10.png)
 
 ## Session 3b : Server Automation
 

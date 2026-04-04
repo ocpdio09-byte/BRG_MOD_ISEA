@@ -167,7 +167,14 @@ O - other\
 - Change Ownership!
   - `sudo chown ubuntu:ubuntu TestPrem.txt` -> give premision to user ubuntu
   - `sudo chown $USER:$USER TestPrem.txt` -> automatically check and uses current username
-    
+
+![1bpermission](1bp.png)
+![1bpermission](2bp.png)
+![1bpermission](3bp.png)
+![1bpermission](4bp.png)
+![1bpermission](5bp.png)
+![1bpermission](6bp.png)
+
 ----------
 
 # Session 2 

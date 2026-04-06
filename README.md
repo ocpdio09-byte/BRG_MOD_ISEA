@@ -456,7 +456,7 @@ CREATE TABLE students (
 );
 
 INSERT INTO students (name, grade)
-VALUES ('James', 'A'), ('John', 'B');
+VALUES ('Jamie', 'A'), ('John', 'B');
 ```
 - Query Data : `SELECT * FROM student` ~ Returned 2 Row.
 - MariaDB version: `15.1 Distrib 10.11.14-MariaDB`

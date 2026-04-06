@@ -217,7 +217,7 @@ O - Other
 ![TCO1](2a1.png)
 ![TCO2](2a2.png)
 ![TCO3](2a3.png)
-![TCO4](2a4.png)
+![TCO4](2A4.png)
 
 ## Session 2b : Cloud Services
 - Succesfully deployed VM using Azure for Student

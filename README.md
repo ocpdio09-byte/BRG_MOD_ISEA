@@ -408,12 +408,12 @@ cat cron.txt
 ```
 # runs every minute
 sudo nano /etc/crontab
-* * * * * azureuser /usr/bin/transcript
+0 * * * * azureuser /usr/bin/testscript
 ```
 - `0` = minute 0
 - `*` = every hour
 - user = `azureuser`
-- command = `/usr/bin/transcript`
+- command = `/usr/bin/testscript`
 
 ![3bScript](3b4.png)
 
@@ -456,7 +456,7 @@ CREATE TABLE students (
 );
 
 INSERT INTO students (name, grade)
-VALUES ('Micky', 'A'), ('John', 'B');
+VALUES ('James', 'A'), ('John', 'B');
 ```
 - Query Data : `SELECT * FROM student` ~ Returned 2 Row.
 - MariaDB version: `15.1 Distrib 10.11.14-MariaDB`

@@ -410,8 +410,12 @@ cat cron.txt
 sudo nano /etc/crontab
 0 * * * * azureuser /usr/bin/testscript
 ```
-- `0` = minute 0
-- `*` = every hour
+- Each `*` represent different meaning 
+  - First is minutes 0 - 59
+  - Second is Hours 0 - 23
+  - Thrid is day 1 - 31
+  - Fourth is Month 1 - 12
+  - Fifth is Which day on the week 0 - 7
 - user = `azureuser`
 - command = `/usr/bin/testscript`
 
